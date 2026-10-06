@@ -1,51 +1,53 @@
-# Ignore list for Eagle, a PCB layout tool
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.sass-cache
 
-# Backup files
-*.s#?
-*.b#?
-*.l#?
-*.b$?
-*.s$?
-*.l$?
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-# Eagle project file
-# It contains a serial number and references to the file structure
-# on your computer.
-# comment the following line if you want to have your project file included.
-eagle.epf
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-# Autorouter files
-*.pro
-*.job
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
 
-# CAM files
-*.$$$
-*.cmp
-*.ly2
-*.l15
-*.sol
-*.plc
-*.stc
-*.sts
-*.crc
-*.crs
+# Media #
+############
+*.mp3
+*.ogg
+*.ogv
+*.webm
 
-*.dri
-*.drl
-*.gpi
-*.pls
-*.ger
-*.xln
-
-*.drd
-*.drd.*
-
-*.s#*
-*.b#*
-
-*.info
-
-*.eps
-
-# file locks introduced since 7.x
-*.lck
+# Custom #
+######################
+graphics
+node_modules
+presentations/images
+z-archive
